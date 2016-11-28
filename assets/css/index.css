@@ -1,0 +1,16 @@
+/*index css*/
+html{font-size: calc(100vw/7.5);color: pink;}
+a{color: pink;text-decoration: none;}
+a:hover{text-decoration: underline;}
+body{font-size:32px;font-size:.32rem;}
+*{margin:0;padding:0;}
+ul{padding: 0.4rem 0.2rem 0;}
+li{float:left;list-style: none;}
+li div{padding:0 0.1rem;}
+li a{display: block;text-align: center;}
+li a img{display: block;width:100%;}
+p{color: pink;text-indent: 0.1rem;padding:0.1rem 0;font-weight: bold;font-style: italic;}
+
+@media (max-width:640px){
+li{width: 50%;}
+}
